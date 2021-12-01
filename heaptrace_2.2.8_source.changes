@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 01 Dec 2021 18:58:10 +0000
+Source: heaptrace
+Binary: heaptrace
+Architecture: source
+Version: 2.2.8
+Distribution: bionic
+Urgency: medium
+Maintainer: Aaron Esau (Debian) <aaron1esau@gmail.com>
+Changed-By: Aaron Esau (Debian) <aaron1esau@gmail.com>
+Description:
+ heaptrace  - helps visualize heap operations for pwn and debugging
+Changes:
+ heaptrace (2.2.8) bionic; urgency=medium
+ .
+   * Initial release to debian.
+Checksums-Sha1:
+ 58b0864fc3d685f278a8b68c80d433caf76d8064 1424 heaptrace_2.2.8.dsc
+ 160d1a06040578db9631665ac1a5facecb275c8f 471788 heaptrace_2.2.8.tar.xz
+ a0ed80479437b0bd6981eac41ef7c71a9a5fbc7e 6560 heaptrace_2.2.8_source.buildinfo
+Checksums-Sha256:
+ 3f9c4ae77240e2671ca35f88e572a48519db2ce8a87bf193f7ddc19e02956c26 1424 heaptrace_2.2.8.dsc
+ 5e681376ca6fcebbd8a388d237bd274e5c376aaf156c9113176247c22f611dd4 471788 heaptrace_2.2.8.tar.xz
+ 9b79066c0d91ec7fdbed9105ddc8d335911e94fa5ef2a7fd38831d792e3f1391 6560 heaptrace_2.2.8_source.buildinfo
+Files:
+ 75f43ec0462ed7afa9da96e26d3dc140 1424 utils optional heaptrace_2.2.8.dsc
+ 1b23fd0e5d06c1f3eab7abe044b7925a 471788 utils optional heaptrace_2.2.8.tar.xz
+ d937b5330d350204ece9fbc38dc97540 6560 utils optional heaptrace_2.2.8_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHJBAEBCgAzFiEEYsrOsOfgDULdMB9vlbrCRizGokYFAmGnyRMVHGFhcm9uMWVz
+YXVAZ21haWwuY29tAAoJEJW6wkYsxqJGUcgMAK9QF9jO8BQ3vLtswoaiL2vLomPg
+NLRA9jlIsrzhBTtxTZWcH4vuY4l8zObLjLtfycy3Iqq8PlGqT2R17AJe6UKxIV0D
+8n2/97NBRwjVGJB/xrGi1631s/pBYw9GKqafkP4W7mx8E74btss93jmAUzroaG60
+wLVpfZeiKmoms0OJes6eCjDzCq4pDtk+/zwwjNKJabW+d4r5ZPHrzsDZ8a6iCEbp
+OSx9BO/PXZBVjJN7ZsccCRY6oQGfExtn+fdvWZ1zDXhIbmsVr4nNJWrqrbqUX2cK
+P6F0l9uMNnl26phL8LuuDwnJ8owkeIdqyOBgwaCFXSTNV8JZKo99NLiBXZpuzZeL
+B0m/1ZtyVUtjxYW3wN2zpiF5HpP9TvCeVqC/Pj/UsYnGRQTcxGjLIfjNXWPfhJDD
+tu9hoyl6KCp4ITe91u/3L7rxKIPMLL8vBEG7KZXgYX8no7BiQe/XKYtvE7syRVx7
+ehMVYlp9f1kHXZKLGOZYBdtHxNOsA3HxqmT4gA==
+=RPwR
+-----END PGP SIGNATURE-----

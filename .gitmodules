@@ -1,0 +1,3 @@
+[submodule "heaptrace"]
+	path = heaptrace
+	url = git@github.com:Arinerron/heaptrace.git
