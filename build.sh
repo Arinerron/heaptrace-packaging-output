@@ -2,9 +2,11 @@
 
 set -e
 
-rm -f *.changes *.xyz
-pushd
+rm -f *.build *.buildinfo *.upload *.changes *.dsc *.tar.xz *.tar.gz
 cd heaptrace
+git pull
+rm -f ./heaptrace/debian/heaptrace.doc-base.EX
+make dpkg
 debuild -S | tee /tmp/debuild.log 2>&1
-popd
-dput ppa:arinerron/heaptrace "$(ls *.changes)"
+cd ..
+#dput -fd ppa:arinerron/heaptrace "$(ls *.changes)"

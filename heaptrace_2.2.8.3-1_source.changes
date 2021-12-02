@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 01 Dec 2021 18:58:10 +0000
+Source: heaptrace
+Binary: heaptrace
+Architecture: source
+Version: 2.2.8.3-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Aaron Esau (Debian) <aaron1esau@gmail.com>
+Changed-By: Aaron Esau (Debian) <aaron1esau@gmail.com>
+Description:
+ heaptrace  - helps visualize heap operations for pwn and debugging
+Changes:
+ heaptrace (2.2.8.3-1) unstable; urgency=medium
+ .
+   * Initial Debian release.
+Checksums-Sha1:
+ 9c4214c7b89245fd5c818df23518d5ec57d79a49 1615 heaptrace_2.2.8.3-1.dsc
+ 251f6064e2096f8564a81bf84ddb2c9405cc728e 2432806 heaptrace_2.2.8.3.orig.tar.gz
+ 261399d6fe41a5081225f9fcaf563fc114e5b574 1636 heaptrace_2.2.8.3-1.debian.tar.xz
+ 720c1f5782deba1fa59913643d0bd07f3f86e9ae 6640 heaptrace_2.2.8.3-1_source.buildinfo
+Checksums-Sha256:
+ 9b755bb51b0e248d169d65d670c31d36d8341fa7ddafb7b2fe494d6fd482d3ea 1615 heaptrace_2.2.8.3-1.dsc
+ e3420d0be5a94ac7edc076d07f3b63178dc369472d0f7bb4c02765676c898f40 2432806 heaptrace_2.2.8.3.orig.tar.gz
+ 0046ece107ccd18a4464e903dff9276601604a361cb893d2b889917a06fb6816 1636 heaptrace_2.2.8.3-1.debian.tar.xz
+ e7e5bd442bf7ed877466101e05b2afab2244721e6ef5bd073c567bc6576b90eb 6640 heaptrace_2.2.8.3-1_source.buildinfo
+Files:
+ 64b00b5bdbd8655cb87fba7bcf4d8f6b 1615 utils optional heaptrace_2.2.8.3-1.dsc
+ ebd3c23a4edcd7620882f52d64f8d34a 2432806 utils optional heaptrace_2.2.8.3.orig.tar.gz
+ 11001c935ba84e79ea036dd34ce7499f 1636 utils optional heaptrace_2.2.8.3-1.debian.tar.xz
+ a4d543c41babb87059adbca62a76a06a 6640 utils optional heaptrace_2.2.8.3-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHJBAEBCgAzFiEEYsrOsOfgDULdMB9vlbrCRizGokYFAmGpHWIVHGFhcm9uMWVz
+YXVAZ21haWwuY29tAAoJEJW6wkYsxqJGsXML/iZT+adraml7ydIgrpWiQUcddNeh
+PTrjIkNUtFXWJojmv9ErewgHos+/isyNcgLwQwr8eW37Zm6G0OkPmxWHcT9nlp5x
+iK/EENcJBjm5gR1qqtY9DxqZBFzRactyw43QdtPY1xWR+Ezto35XXTNoB6VESlgM
+qwD/mLi3d2uUnj8x2qvMPNJ1Pey7cm75z50d5DovupJEaJimrKBfj+J++jgM2fhM
+cFGMzXKOztgFXLSqnfiUcCQZokh9HlAYFbmoCZg94LNCYjvA8ONaOE/QKHw5iYWp
+9mC+SaVqS5lEs9JbPQ/R7hRks1v1bLJLRzudJqiWOlF5/rHF9v4L6V4MIUdyYu4x
+E+kIfi1wFlolT2xDOwJaSd+sOrwGfHneHT03apUvBUck1SoQUF1BW86j+Vu++oyB
+ISTcI79KnuYcCfdOc898x+c8E2KKqnqz/GyFAqkwUKqavjTvj22w4/GL9E0mvNIj
+3FSRMSb3TKRPfeFVb+nOmXR9PnRX/rdbGB0EOQ==
+=ljvn
+-----END PGP SIGNATURE-----

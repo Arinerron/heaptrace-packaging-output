@@ -5,16 +5,16 @@ Format: 1.0
 Source: heaptrace
 Binary: heaptrace
 Architecture: source
-Version: 2.2.8
+Version: 2.2.8.3-1
 Checksums-Md5:
- 75f43ec0462ed7afa9da96e26d3dc140 1424 heaptrace_2.2.8.dsc
+ 64b00b5bdbd8655cb87fba7bcf4d8f6b 1615 heaptrace_2.2.8.3-1.dsc
 Checksums-Sha1:
- 58b0864fc3d685f278a8b68c80d433caf76d8064 1424 heaptrace_2.2.8.dsc
+ 9c4214c7b89245fd5c818df23518d5ec57d79a49 1615 heaptrace_2.2.8.3-1.dsc
 Checksums-Sha256:
- 3f9c4ae77240e2671ca35f88e572a48519db2ce8a87bf193f7ddc19e02956c26 1424 heaptrace_2.2.8.dsc
+ 9b755bb51b0e248d169d65d670c31d36d8341fa7ddafb7b2fe494d6fd482d3ea 1615 heaptrace_2.2.8.3-1.dsc
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 01 Dec 2021 19:12:12 +0000
+Build-Date: Thu, 02 Dec 2021 19:24:16 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-11),
  automake (= 1:1.15.1-3ubuntu2),
@@ -37,13 +37,14 @@ Installed-Build-Depends:
  cpp-7 (= 7.5.0-3ubuntu1~18.04),
  dash (= 0.5.8-2.10),
  debconf (= 1.5.66ubuntu1),
- debhelper (= 11.1.6ubuntu2),
+ debhelper (= 12.1.1ubuntu1~ubuntu18.04.1),
  debianutils (= 4.8.4),
  dh-autoreconf (= 17),
  dh-strip-nondeterminism (= 0.040-1.1~build1),
  diffutils (= 1:3.6-1),
  dpkg (= 1.19.0.5ubuntu2.3),
  dpkg-dev (= 1.19.0.5ubuntu2.3),
+ dwz (= 0.12-2),
  e2fsprogs (= 1.44.1-1ubuntu1.3),
  fdisk (= 2.31.1-0.4ubuntu3.7),
  file (= 1:5.32-2ubuntu0.4),
@@ -95,6 +96,7 @@ Installed-Build-Depends:
  libdebconfclient0 (= 0.213ubuntu1),
  libdpkg-perl (= 1.19.0.5ubuntu2.3),
  libedit2 (= 3.1-20170329-1),
+ libelf1 (= 0.170-0.4ubuntu0.1),
  libext2fs2 (= 1.44.1-1ubuntu1.3),
  libfdisk1 (= 2.31.1-0.4ubuntu3.7),
  libffi6 (= 3.2.1-8),
@@ -182,15 +184,15 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQHJBAEBCgAzFiEEYsrOsOfgDULdMB9vlbrCRizGokYFAmGnyRMVHGFhcm9uMWVz
-YXVAZ21haWwuY29tAAoJEJW6wkYsxqJG2SUL/A4eiiF9I9r0fLEJ1j4UU7u7XwuH
-ZgjjJuNPWWg2jfR9gY8gFngDiYcTY0Wn0Zwx/Zu+I6FCrjrzsbiFdb8vlnUH85ab
-yRz3XktwF6fg3UVodxcAbzGFDFV4foehC7+4kKGcStMhkhVi3dQFjT8fsisiRLi+
-ss928uKRgCYBB7auhroPxdvSkIhkDfYGuF3Qj35ou0Eq/SreVES5y5Iub6EKzozG
-A+IY8r50PzdhQqke/bGUcSVK0TTK/FUPh7Ma4hYhCvRlbAlT7M07rsCJaF7cfzFQ
-qQ53ICDZGJn0+U4/mFO0pJNHxDnIA3rZ7gFq7pDp48E67dzDRH/wxrPAM1PbFjsk
-XlJLTyH/Re30heY/0MUOEHAi/Sau1b8pgYN5+d/1LhBl55Te0FC7NDf/pXOskm8g
-18fBqtQOG0pvu3vqiaK6UMdQL5PeKhOx2DCcSq0Oy85vVQM24uC1ugRycJLKGorI
-Q3DHoDeF/OTVl7W25kP0Jv2u+Du3COOPJ7As4w==
-=2C7B
+iQHJBAEBCgAzFiEEYsrOsOfgDULdMB9vlbrCRizGokYFAmGpHWIVHGFhcm9uMWVz
+YXVAZ21haWwuY29tAAoJEJW6wkYsxqJGdugL/1jOT9ZjenpkBpio0m7ffVrB1wTh
+y3wmtjJ64NaXzjHyvURxq0BRU9t5R1xlFvy8C8rxSndGd0aDGhzw4nREQLfgyolZ
+aQ4Va19e6yUe9bxL015dr3gKAzoAnjK6rWfntj6qPjsZwy54ke61YdsoQD21sgTh
+Bqmx9mFt7XuyxaqZB+erzfEiVsV+MW8xSCRU5yc7YwHLXhV1jH1NMexYXOo4Tv7B
+sCRDnerIByEiB5Q28KX+WuJGbfRcbTn9bNaBUcGJTP+4aOI4b7N7RDPI4H161vy1
+vKOJLptwBiw0W2simZNTUAktmtLuZv4qn2mwMS7Bx6V7x4PJyExyYta6AHob5iUq
+ewFMRU0Jc06N9cbn2skmvMtooqq9RQLtV0zzum7UhnniIjGvpfaHJ+A3IG665OOj
+q+I83O3oSiK0i1a8GStFfIrwSSzHB/uqnq799pVagt10K2rH4UNS1WpvflE/e0Gu
+JOdtL10/ZnDkzm9L81uoNlLpDl9WNwYJfe5JjQ==
+=8bbl
 -----END PGP SIGNATURE-----
