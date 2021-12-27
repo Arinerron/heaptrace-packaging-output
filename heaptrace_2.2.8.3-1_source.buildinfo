@@ -7,14 +7,14 @@ Binary: heaptrace
 Architecture: source
 Version: 2.2.8.3-1
 Checksums-Md5:
- 64b00b5bdbd8655cb87fba7bcf4d8f6b 1615 heaptrace_2.2.8.3-1.dsc
+ 70c318349aeae95b2ac44f54d37a52c9 1615 heaptrace_2.2.8.3-1.dsc
 Checksums-Sha1:
- 9c4214c7b89245fd5c818df23518d5ec57d79a49 1615 heaptrace_2.2.8.3-1.dsc
+ 778b925217037b7a8db5389ae488310ac43f75dd 1615 heaptrace_2.2.8.3-1.dsc
 Checksums-Sha256:
- 9b755bb51b0e248d169d65d670c31d36d8341fa7ddafb7b2fe494d6fd482d3ea 1615 heaptrace_2.2.8.3-1.dsc
+ ac1f83bc339de960b7639a6e39cac47db72133095c1ed457644a27693a653362 1615 heaptrace_2.2.8.3-1.dsc
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Thu, 02 Dec 2021 19:24:16 +0000
+Build-Date: Mon, 27 Dec 2021 04:35:39 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-11),
  automake (= 1:1.15.1-3ubuntu2),
@@ -107,7 +107,7 @@ Installed-Build-Depends:
  libgcrypt20 (= 1.8.1-4ubuntu1.3),
  libgdbm-compat4 (= 1.14.1-6),
  libgdbm5 (= 1.14.1-6),
- libglib2.0-0 (= 2.56.4-0ubuntu0.18.04.8),
+ libglib2.0-0 (= 2.56.4-0ubuntu0.18.04.9),
  libgmp10 (= 2:6.1.2+dfsg-2),
  libgomp1 (= 8.4.0-1ubuntu1~18.04),
  libgpg-error0 (= 1.27-6),
@@ -138,7 +138,7 @@ Installed-Build-Depends:
  libpipeline1 (= 1.5.0-1),
  libquadmath0 (= 8.4.0-1ubuntu1~18.04),
  libreadline7 (= 7.0-3),
- libseccomp2 (= 2.5.1-1ubuntu1~18.04.1),
+ libseccomp2 (= 2.5.1-1ubuntu1~18.04.2),
  libselinux1 (= 2.7-2build2),
  libsigsegv2 (= 2.12-1),
  libsmartcols1 (= 2.31.1-0.4ubuntu3.7),
@@ -184,15 +184,15 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQHJBAEBCgAzFiEEYsrOsOfgDULdMB9vlbrCRizGokYFAmGpHWIVHGFhcm9uMWVz
-YXVAZ21haWwuY29tAAoJEJW6wkYsxqJGdugL/1jOT9ZjenpkBpio0m7ffVrB1wTh
-y3wmtjJ64NaXzjHyvURxq0BRU9t5R1xlFvy8C8rxSndGd0aDGhzw4nREQLfgyolZ
-aQ4Va19e6yUe9bxL015dr3gKAzoAnjK6rWfntj6qPjsZwy54ke61YdsoQD21sgTh
-Bqmx9mFt7XuyxaqZB+erzfEiVsV+MW8xSCRU5yc7YwHLXhV1jH1NMexYXOo4Tv7B
-sCRDnerIByEiB5Q28KX+WuJGbfRcbTn9bNaBUcGJTP+4aOI4b7N7RDPI4H161vy1
-vKOJLptwBiw0W2simZNTUAktmtLuZv4qn2mwMS7Bx6V7x4PJyExyYta6AHob5iUq
-ewFMRU0Jc06N9cbn2skmvMtooqq9RQLtV0zzum7UhnniIjGvpfaHJ+A3IG665OOj
-q+I83O3oSiK0i1a8GStFfIrwSSzHB/uqnq799pVagt10K2rH4UNS1WpvflE/e0Gu
-JOdtL10/ZnDkzm9L81uoNlLpDl9WNwYJfe5JjQ==
-=8bbl
+iQHJBAEBCgAzFiEEYsrOsOfgDULdMB9vlbrCRizGokYFAmHJQpwVHGFhcm9uMWVz
+YXVAZ21haWwuY29tAAoJEJW6wkYsxqJGZNQL/2v1/TDxehmY0O4AOQbXEsky7nGs
+xvXVgTkkIvdvNLhQDUctriiXSDqBjVTHxjLy0irJ9If4evtflGGcLb4d9HPu/cBy
+O9pDlA6NRgnmFqAYc77iKejn3rx8SPD8JanLnneTud2ggIHqktdoOCSQ/UdKQdxr
+OBYP8X3cQ87HXeHpmFOFksr6Mna9bU8PuL99Gup3D7i/SGGm4WfHNTFx/K3MXgW4
+Y2S66n928gE+KzB4V1a86nL7Bi+YZsplsoABfSfy3b9FLW9toIX9CHUkKsbt3Lbe
+oyJFXeb97ZRbRWTjUtgCH5Gw0vr5HtzOdSWD9U5x/MsN4k7UCzYPpWsYOZWYV8Ys
+cNJ/Nay8pztn6LonrfrtzoWZGQI0yGjFV2VrXLAYb0DVzZaKEEkexR2/9c8TUaeq
+mQOkwdjGshQ0Q3e+me3+7mi76Jmx9XnniA71pYC6JrW+r+8NGdmH6EFW32BCr73z
+YAaznRdM4ef3kYOyfY1Q2ktQElobMoFN4z7L5g==
+=V8oY
 -----END PGP SIGNATURE-----
